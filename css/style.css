@@ -1,0 +1,350 @@
+/*actionbar css*/
+
+.navbar {
+    z-index: 2;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 2% 5%;
+    width: 100%;
+}
+
+.navbar-toggler {
+    background-color: white
+}
+
+#particles-js {
+    position: relative
+}
+
+.imgs {
+    background-image: linear-gradient(rgba(0, 0, 0, .8),
+        rgba(0, 0, 0, .8)), url(../img/bg%20mask.png);
+    width: 100%;
+    height: 950px
+}
+
+.jumbotron {
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    color: white !important;
+    margin-top: 14%;
+}
+
+.line1 {
+    font-weight: 700
+}
+
+.line2 {
+    color: #2ebaee
+}
+
+.lead {
+    color: white !important;
+    font-family: 'Cinzel', serif;
+    font-weight: 500
+}
+
+.btn1 {
+    width: 200px;
+    border-radius: 25px;
+    background-color: #2ebaee;
+    font-family: 'Francois One', sans-serif;
+
+}
+
+.btn1:hover {
+    background-color: ##7588e6
+}
+
+.nav-link {
+    color: white !important;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700
+}
+
+.nav-link:hover {
+    color: #39b9ef !important
+}
+
+.card-body {
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+    position: absolute
+}
+
+.aus {
+    color: #39b9ef !important
+}
+
+
+
+/*slider wnd*/
+* {
+    box-sizing: border-box
+}
+
+
+#ityped {
+    color: cornflowerblue
+}
+
+.btx{
+    border: none
+}
+
+
+/*2ns section*/
+.two {
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(110deg, #34ADFF 43%, #fff 35%);
+    min-height: 1500px;
+    padding: 5%
+}
+
+.btx {
+    width: 20%;
+    margin-left: 43%;
+    border-radius: 30px;
+    background-color: #2ebaee
+}
+.two h4 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600
+}
+
+.mac {
+    margin-top: -130px;
+}
+
+.txt {
+    margin-top: 5%;
+    color: white
+}
+
+
+
+.imgd {
+    margin-left: -13px;
+}
+
+.lorem1 {
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+.line3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btx3{
+    width: 40%;
+    border-radius: 30px;
+    background-color: #2ebaee;
+    border: none
+}
+
+/*image hover effect*/
+#s5 img {
+    height: 300px !important;
+    width: 400px !important;
+    margin-left: -19px;
+}
+
+.head {
+    position: absolute;
+    top: 45%;
+    color: white;
+    text-align: center
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+#s5 .pad:hover .overlay {
+    opacity: 0.6;
+}
+
+
+#s5 {
+    overflow: hidden !important
+}
+
+
+/*section 6*/
+#s6 {
+    padding: 3%
+}
+
+.check {
+    font-size: 3em;
+    font-weight: 700
+}
+
+.aws {
+    color: #2ebaee
+}
+
+
+.bt5 {
+    background-color: #2ebaee;
+    border-radius: 50px;
+    border: none
+}
+
+
+
+/*            section7*/
+
+#s7 {
+    background-size: 100% 100%;
+    padding: 5%;
+    position: relative;
+    color: white !important
+}
+
+.icons {
+    display: inline-block
+}
+
+
+/*section 8*/
+
+#s8 {
+    height: 70px;
+    background-color: black
+}
+
+#s8 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#s8 ul {
+    display: inline-flex;
+    margin-top: 21px;
+}
+
+#s8 li {
+    list-style-type: none
+}
+
+
+
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    transparent\9;
+    z-index: 9999;
+    color: white !important;
+}
+
+.nm {
+    color: #2ebaee
+}
+
+.form-control {
+    background-color: transparent;
+    border: 1px solid #535353;
+    border-radius: 7px;
+    color: white
+}
+
+.form-control:focus {
+    background-color: transparent;
+    color: white
+}
+
+.btz {
+    margin-left: 34%
+}
+
+
+/*footer*/
+
+.copy {
+    margin-top: 20px;
+    color: white
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    #s8 {
+        height: 130px;
+        text-align: center
+    }
+
+    .copy {
+        margin-top: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .frm {
+        margin-top: 60px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .mac {
+        margin-top: 43px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .btx {
+        margin-left: 0px;
+        width: 132px;
+        border: none
+    }
+
+    .br1 {
+        width: 100% !important
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .lorem1 {
+        margin-top: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 778px) {
+    .imgd {
+        margin-left: 0px;
+        width: 100%
+    }
+}
